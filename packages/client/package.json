@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "",
-    "build": ""
+    "start": "tsc -b -w & NODE_OPTIONS=--preserve-symlinks yarn nodemon ./build/index.js",
+    "build": "tsc -b"
   }
 }
