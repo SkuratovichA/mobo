@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "monorepo-boilerplate",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
@@ -40,5 +40,5 @@
     "lint": "eslint 'packages/**/*.ts' 'packages/**/*.tsx'",
     "lint-fix": "eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@4.1.1"
 }
