@@ -5,7 +5,8 @@ export const entries = <T extends object>(obj: Maybe<T>): AsArray<T> =>
   obj ? (Object.entries(obj) as AsArray<T>) : []
 
 export type WithId<T extends object = object> = T & { id: string | number }
-export const isWithId = (obj: object): obj is WithId => obj && 'id' in obj && (typeof obj.id === 'string' || typeof obj.id === 'number')
+export const isWithId = (obj: object): obj is WithId =>
+  obj && 'id' in obj && (typeof obj.id === 'string' || typeof obj.id === 'number')
 
 export type IdMap<T extends WithId = WithId> = Record<T['id'], T>
 
