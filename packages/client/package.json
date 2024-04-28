@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "tsc -b -w & NODE_OPTIONS=--preserve-symlinks yarn nodemon ./build/index.js",
+    "start": "tsc -b -w & NODE_OPTIONS=--preserve-symlinks yarn nodemon build/index.js",
     "build": "tsc -b"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
