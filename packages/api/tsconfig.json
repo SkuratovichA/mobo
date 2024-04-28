@@ -1,15 +1,17 @@
 {
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "outDir": "build",
-        "rootDir": "src"
-    },
-    "include": ["src"],
-    "references": [
-        {
-            "path": "../common/tsconfig.json"
-        }
-    ]
+  "extends": "../../tsconfig.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "rootDir": "src"
+  },
+  "references": [
+      {
+          "path": "../common/tsconfig.json"
+      }
+  ],
+  "exclude": [
+    "build",
+    "node_modules"
+  ],
 }

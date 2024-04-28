@@ -2,14 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-    ],
-    "paths": {
-      "@app-client/*": [
-        "./src/*"
-      ]
-    }
+    "outDir": "build",
+    "rootDir": "src",
   },
   "include": ["src"],
   "exclude": [
