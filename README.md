@@ -45,3 +45,6 @@ If you wanna add some other packages to the project, follow the package.json in 
 - [ ] Add more rules to eslint configuration 
 - [ ] Add more rules to prettier configuration
 - [ ] Move common into a npm package rather than common files
+
+## Links
+https://skuratovichaliaksandr.atlassian.net/jira/software/projects/MOBO/boards/4
